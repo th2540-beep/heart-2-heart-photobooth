@@ -219,6 +219,7 @@ function preload() {
 function setup() {
 
   createCanvas(800, 600);
+  pixelDensity(2);
 
 
   // -----------------------
@@ -230,8 +231,8 @@ function setup() {
 
 
   video.size(
-    640,
-    480
+    1280,
+    960
   );
 
 
