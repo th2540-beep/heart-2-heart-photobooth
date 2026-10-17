@@ -335,6 +335,10 @@ function runClassification() {
             rawConfidence
           );
 
+           if (IGNORE_LABELS.includes(rawLabel)) {
+             confidence = 0;
+           }
+
 
         checkForPhoto(
           label,
